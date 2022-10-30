@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UniqueArrayComponent from './components/UniqueArrayComponent';
+import ElementsTreeComponent from './components/ElementsTreeComponent';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       </div>
 
       {challenge === 1 && <UniqueArrayComponent />}
+      {challenge === 2 && <ElementsTreeComponent />}
 
     </main>
   )
